@@ -1,0 +1,8 @@
+NAME="kasumi"
+VERSION=2.5
+RELEASE=1
+CATEGORY="Text"
+SUMMARY="Anthy Dictionary editor"
+DESCRIPTION="Management tool for private Japanese anthy dictionaries"
+HOMEPAGE="http://kasumi.sourceforge.jp/"
+SRC_URI="http://osdn.dl.sourceforge.jp/kasumi/41436/kasumi-${VERSION}.tar.gz"
