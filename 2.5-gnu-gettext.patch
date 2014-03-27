@@ -1,0 +1,12 @@
+Force autopoint so that newest macros are used
+
+--- origsrc/kasumi-2.5/configure.in	2009-07-12 22:41:26.000000000 -0500
++++ src/kasumi-2.5/configure.in	2014-03-26 20:17:42.001494500 -0500
+@@ -10,6 +10,7 @@ AC_PROG_CXX
+ dnl Checks for gettext
+ ALL_LINGUAS="ja it"
+ AM_GNU_GETTEXT
++AM_GNU_GETTEXT_VERSION([0.12])
+ 
+ dnl LDFLAGS="$LDFLAGS $INTLLIBS"
+ dnl localedir='${prefix}/share/locale'
